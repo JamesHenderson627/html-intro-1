@@ -1,0 +1,71 @@
+#background {
+	width: 100%;
+}
+
+#iron-img {
+	border-radius: 500px;
+	height: 120px;
+	margin-left: 200px;
+}
+
+#content {
+	font-family: sans-serif;
+	margin: auto;
+	max-width: 1000px;
+}
+
+.info {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top
+}
+
+.info p {
+	font-size: 20px;
+	color: gray;
+	opacity: .8;
+}
+
+.blog {
+	width: 60%;
+	display: inline-block;
+}
+
+.author {
+	font-size: 17px;
+	font-style: italic
+}
+
+.title {
+	font-size: 45px;
+}
+
+.blog-text {
+	font-size: 20px;
+	font-family: PT Serif, serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.follow {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	border: 2px solid black;
+	width: 300px;
+	z-index: 1;
+	background-color: white;
+}
+
+.follow p {
+	font-size: 20px;
+	color: gray;
+}
+
+hr {
+	color: gray;
+	opacity: .8;
+}
